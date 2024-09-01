@@ -161,9 +161,10 @@ sum(pval_c <= 0.01)/ num_pheno # at the significance level 0.01
 ### Input summary data of InCHIANTI
 ### setwd("C:\\Users\\lying\\Desktop\\article") #path of R document 
 load('gene_dict_INCHIANTI.Rdata') # dictionary
-load('genotype.Rdata')   # reference genotype data
+load('genotype_part1.Rdata')   # reference genotype part 1 data
+load('genotype_part2.Rdata')   # reference genotype part 2 data
 load('INCHIANTI.Rdata') # summary data
-
+genotype <- rbind(genotype_part1, genotype_part2)
 
 # Calculate p-value of each gene in six phenotypes(AA, ALA, DHA, EDA, EPA, LA)
 #AA
