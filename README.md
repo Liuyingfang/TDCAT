@@ -2,7 +2,7 @@
 
 Functions:
 1. PDCAT.R: This file includes functions for implementing the proposed method PDCAT. 
-2. Simulation and real data.R: This file includes functions for generating simulated data, comparison with alternatives, and real data analysis.
+2. Simulations and real data.R: This file includes functions for generating simulated data, comparison with alternatives, and real data analysis.
 
 Data:
 1. INCHINT.R: This file includes datas for GWAS summary data. 
