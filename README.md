@@ -1,4 +1,4 @@
-# Codes for implementation of PDCAT 
+# Codes for implementation of TDCAT 
 
 Functions:
 1. PDCAT.R: This file includes functions for implementing the proposed method PDCAT. 
